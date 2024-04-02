@@ -1,50 +1,50 @@
 [
     {
       "id": 123456,
-      "cover": "cover_image1.jpg",
+      "cover": "https://i.ibb.co/RSNCNrm/istockphoto-1469209282-1024x1024.jpg",
       "title": "The Secret Garden",
       "author": "Emily Smith",
-      "author_img": "author_image1.jpg",
+      "author_img": "https://i.ibb.co/k3dB0z3/profile.png",
       "posted_date": "April 1, 2024",
       "reading_time": 12,
       "hashtags": ["#fiction", "#nature", "#classics"]
     },
     {
       "id": 789012,
-      "cover": "cover_image2.jpg",
+      "cover": "https://i.ibb.co/rH7cSnd/istockphoto-1469207509-1024x1024.jpg",
       "title": "Beyond the Stars",
       "author": "David Johnson",
-      "author_img": "author_image2.jpg",
+      "author_img": "https://i.ibb.co/k3dB0z3/profile.png",
       "posted_date": "March 30, 2024",
       "reading_time": 8,
       "hashtags": ["#scifi", "#adventure", "#space"]
     },
     {
       "id": 345678,
-      "cover": "cover_image3.jpg",
+      "cover": "https://i.ibb.co/kHxrB1r/istockphoto-1469207555-1024x1024.jpg",
       "title": "The Lost Kingdom",
       "author": "Sarah Thompson",
-      "author_img": "author_image3.jpg",
+      "author_img": "https://i.ibb.co/k3dB0z3/profile.png",
       "posted_date": "March 28, 2024",
       "reading_time": 15,
       "hashtags": ["#fantasy", "#quest", "#magic"]
     },
     {
       "id": 901234,
-      "cover": "cover_image4.jpg",
+      "cover": "https://i.ibb.co/Vgg7YwM/istockphoto-1469210062-1024x1024.jpg",
       "title": "The Art of Cooking",
       "author": "Michael Brown",
-      "author_img": "author_image4.jpg",
+      "author_img": "https://i.ibb.co/k3dB0z3/profile.png",
       "posted_date": "April 2, 2024",
       "reading_time": 10,
       "hashtags": ["#cooking", "#recipes", "#foodie"]
     },
     {
       "id": 567890,
-      "cover": "cover_image5.jpg",
+      "cover": "https://i.ibb.co/L8ZtbkG/istockphoto-1469210246-1024x1024.jpg",
       "title": "Into the Unknown",
       "author": "Jessica Lee",
-      "author_img": "author_image5.jpg",
+      "author_img": "https://i.ibb.co/k3dB0z3/profile.png",
       "posted_date": "March 29, 2024",
       "reading_time": 20,
       "hashtags": ["#mystery", "#thriller", "#suspense"]
