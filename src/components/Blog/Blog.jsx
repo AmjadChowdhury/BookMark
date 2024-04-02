@@ -16,7 +16,7 @@ const Blog = ({blog,handleBookMark}) => {
                 </div>
                 <div className='flex items-center'>
                     <p><span className='text-xl font-extrabold text-green-700'>{reading_time}</span> min reading</p>
-                    <button onClick={handleBookMark} className='ml-2'><MdOutlineBookmarks className='text-blue text-2xl'></MdOutlineBookmarks></button>
+                    <button onClick={() => handleBookMark(blog)} className='ml-2'><MdOutlineBookmarks className='text-blue text-2xl'></MdOutlineBookmarks></button>
                 </div>
             </div>
             <h1 className='text-3xl font-bold'>{title}</h1>
@@ -30,7 +30,8 @@ const Blog = ({blog,handleBookMark}) => {
 };
 
 Blog.propTypes = {
-    blog : PropTypes.object
+    blog : PropTypes.object,
+    handleBookMark : PropTypes.func
 }
 
 export default Blog;
