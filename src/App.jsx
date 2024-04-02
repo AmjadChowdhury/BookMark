@@ -14,15 +14,17 @@ function App() {
     setBookmarks(newBookMarks)
   }
 
-  const handleReadingTime = time => {
+  const handleReadingTime = (id,time) => {
     const newTime = reading + time
     setReading(newTime)
+    const remainingBookMarks = bookmarks.filter(bookmark => bookmark.id !== id)
+    setBookmarks(remainingBookMarks)
   }
 
   return (
     <>     
       <Header></Header>
-      <div className='md:flex'>
+      <div className='md:flex mt-2'>
         <Blogs handleBookMark={handleBookMark} handleReadingTime={handleReadingTime}></Blogs>
         <Bookmarks bookmarks={bookmarks} reading={reading}></Bookmarks>
       </div>

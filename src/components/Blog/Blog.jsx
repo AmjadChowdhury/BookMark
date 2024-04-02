@@ -2,9 +2,9 @@ import PropTypes from 'prop-types'
 import { MdOutlineBookmarks } from "react-icons/md";
 
 const Blog = ({blog,handleBookMark,handleReadingTime}) => {
-    const {title,cover,author,author_img,posted_date,reading_time,hashtags} = blog
+    const {id,title,cover,author,author_img,posted_date,reading_time,hashtags} = blog
     return (
-        <div className='border-2 border-green-300 px-2'>
+        <div className='px-2'>
             <img src={cover} alt="" className='w-full' />
             <div className='flex justify-between items-center my-2'>
                 <div className='flex'>
@@ -25,7 +25,8 @@ const Blog = ({blog,handleBookMark,handleReadingTime}) => {
                     hashtags.map((hash,idx) => <span className='mr-2 text-xl' key={idx}><a href="">{hash}</a></span>)
                 }
             </div>
-            <button className='text-blue-600 text-xl underline' onClick={() => handleReadingTime(reading_time)}>Mark As Read</button>
+            <button className='text-blue-600 text-xl underline mb-3' onClick={() => handleReadingTime(id,reading_time)}>Mark As Read</button>
+            <p className='border-b-4 border-dotted border-emerald-700 px-2 mb-2'></p>
         </div>
     );
 };
