@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import { MdOutlineBookmarks } from "react-icons/md";
 
-const Blog = ({blog}) => {
+const Blog = ({blog,handleBookMark}) => {
     const {title,cover,author,author_img,posted_date,reading_time,hashtags} = blog
     return (
         <div className='border-2 border-green-300'>
@@ -16,7 +16,7 @@ const Blog = ({blog}) => {
                 </div>
                 <div className='flex items-center'>
                     <p><span className='text-xl font-extrabold text-green-700'>{reading_time}</span> min reading</p>
-                    <button className='ml-2'><MdOutlineBookmarks className='text-blue text-2xl'></MdOutlineBookmarks></button>
+                    <button onClick={handleBookMark} className='ml-2'><MdOutlineBookmarks className='text-blue text-2xl'></MdOutlineBookmarks></button>
                 </div>
             </div>
             <h1 className='text-3xl font-bold'>{title}</h1>
