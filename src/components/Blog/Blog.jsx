@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import { MdOutlineBookmarks } from "react-icons/md";
 
-const Blog = ({blog,handleBookMark}) => {
+const Blog = ({blog,handleBookMark,handleReadingTime}) => {
     const {title,cover,author,author_img,posted_date,reading_time,hashtags} = blog
     return (
-        <div className='border-2 border-green-300'>
+        <div className='border-2 border-green-300 px-2'>
             <img src={cover} alt="" className='w-full' />
             <div className='flex justify-between items-center my-2'>
                 <div className='flex'>
@@ -25,13 +25,15 @@ const Blog = ({blog,handleBookMark}) => {
                     hashtags.map((hash,idx) => <span className='mr-2 text-xl' key={idx}><a href="">{hash}</a></span>)
                 }
             </div>
+            <button className='text-blue-600 text-xl underline' onClick={() => handleReadingTime(reading_time)}>Mark As Read</button>
         </div>
     );
 };
 
 Blog.propTypes = {
     blog : PropTypes.object,
-    handleBookMark : PropTypes.func
+    handleBookMark : PropTypes.func,
+    handleReadingTime : PropTypes.func
 }
 
 export default Blog;
