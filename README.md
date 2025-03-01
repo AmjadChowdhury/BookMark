@@ -1,9 +1,27 @@
 # React BookMark
 https://amjadbookmark.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📚 Bookshelf - Personal Reading Tracker
 
-Currently, two official plugins are available:
+Bookshelf is a web application designed to help users track their reading progress and bookmark their favorite blogs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 📖 View books with title, author, tags, and reading time.
+- ✅ Mark books as "Read" to track total reading time.
+- 🔖 Bookmark books for later reference.
+- 🎨 Responsive design using **Tailwind CSS** and **DaisyUI**.
+- ⚡ Interactive UI built with **JavaScript**.
+
+## 🛠 Technologies Used
+- **HTML**
+- **CSS (Tailwind CSS, DaisyUI)**
+- **JavaScript**
+- **ReactJS**
+
+## 📂 Installation and Usage
+
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/AmjadChowdhury/BookMark.git
+cd BookMark
+
