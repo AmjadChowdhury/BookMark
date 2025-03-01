@@ -13,7 +13,7 @@ const Blogs = ({handleBookMark,handleReadingTime}) => {
         .then(data => setBlogs(data))
     },[])
     return (
-        <div className="md:w-2/3 mx-2">
+        <div className="md:w-2/3 mx-2 grid grid-cols-1 lg:grid-cols-2 gap-5">
             {
                 blogs.map(blog => <Blog key={blog.id} blog={blog} handleBookMark={handleBookMark} handleReadingTime={handleReadingTime}></Blog>)
             }

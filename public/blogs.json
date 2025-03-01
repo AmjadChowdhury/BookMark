@@ -1,7 +1,7 @@
 [
     {
       "id": 123456,
-      "cover": "https://i.ibb.co/RSNCNrm/istockphoto-1469209282-1024x1024.jpg",
+      "cover": "https://i.ibb.co.com/GfBsSDkj/book1.jpg",
       "title": "The Secret Garden",
       "author": "Emily Smith",
       "author_img": "https://i.ibb.co/k3dB0z3/profile.png",
@@ -11,7 +11,7 @@
     },
     {
       "id": 789012,
-      "cover": "https://i.ibb.co/rH7cSnd/istockphoto-1469207509-1024x1024.jpg",
+      "cover": "https://i.ibb.co.com/xSGRfGHs/book2.jpg",
       "title": "Beyond the Stars",
       "author": "David Johnson",
       "author_img": "https://i.ibb.co/k3dB0z3/profile.png",
@@ -21,7 +21,7 @@
     },
     {
       "id": 345678,
-      "cover": "https://i.ibb.co/kHxrB1r/istockphoto-1469207555-1024x1024.jpg",
+      "cover": "https://i.ibb.co.com/YB2K4zRD/book3.png",
       "title": "The Lost Kingdom",
       "author": "Sarah Thompson",
       "author_img": "https://i.ibb.co/k3dB0z3/profile.png",
@@ -31,7 +31,7 @@
     },
     {
       "id": 901234,
-      "cover": "https://i.ibb.co/Vgg7YwM/istockphoto-1469210062-1024x1024.jpg",
+      "cover": "https://i.ibb.co.com/HDM5Z0Lw/book4.jpg",
       "title": "The Art of Cooking",
       "author": "Michael Brown",
       "author_img": "https://i.ibb.co/k3dB0z3/profile.png",
@@ -41,7 +41,7 @@
     },
     {
       "id": 567890,
-      "cover": "https://i.ibb.co/L8ZtbkG/istockphoto-1469210246-1024x1024.jpg",
+      "cover": "https://i.ibb.co.com/PsZ8G2V1/book5.jpg",
       "title": "Into the Unknown",
       "author": "Jessica Lee",
       "author_img": "https://i.ibb.co/k3dB0z3/profile.png",
